@@ -1,0 +1,12 @@
+﻿{
+  "Version": "15.0.0",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://<your server>/upload",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "key": "<your key>"
+  },
+  "FileFormName": "file",
+  "URL": "{json:data.url}"
+}
